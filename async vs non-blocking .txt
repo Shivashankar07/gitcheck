@@ -1,4 +1,4 @@
-Asynchronous means that our API will return immeadiately adter calling it. In the background it will start a process to fulfill the request. Once that process is completed, our work is done. Main thread does not wait for the process to complete.
+Asynchronous means that our API will return immeadiately adter calling it. In the background it will start a process to fulfill the request. Once that process is completed, our work is done. Main thread does not wait for the process to completee
 
 Non-blocking means id our API cannot complete the work, it returns an error immeadiately. Based on the response, success or error, we can decide if we want to make another call to same API or continue with the next operation in our main flow. We can create a wait mechanism in a non-blocking operation.
 
